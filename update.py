@@ -33,7 +33,7 @@ def import_ip():
         ('tor exits','https://raw.githubusercontent.com/firehol/blocklist-ipsets/refs/heads/master/tor_exits.ipset'), 
         ('Tracker Botnet C2 IP Blocklist','https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt'),
         ('Botnets/Zombies/Scanners in European Cyber Space', 'https://raw.githubusercontent.com/duggytuxy/malicious_ip_addresses/refs/heads/main/botnets_zombies_scanner_spam_ips.txt'),
-        ('active compromised IP','https://zonefiles.io/f/compromised/ip/live/'),
+        ('active compromised IP','https://netapi.com/zf-api/f/compromised/ip/live/'),
         ('Crowdsourced IP feed from ThreatCrowd', 'https://github.com/firehol/blocklist-ipsets/raw/refs/heads/master/threatcrowd.ipset'),
         ('php_harvesters', 'https://github.com/firehol/blocklist-ipsets/raw/refs/heads/master/php_harvesters.ipset')
         # possible de rajouter : https://github.com/romainmarcoux/malicious-ip
@@ -51,7 +51,7 @@ def import_domain():
     path = "src/domain_bl.txt"
     domain_list = {
         ('malicious domain used for phising','https://hole.cert.pl/domains/v2/domains.txt'),
-        ('active compromised domain', 'https://zonefiles.io/f/compromised/domains/live/'),
+        ('active compromised domain', 'https://netapi.com/zf-api/f/compromised/domains/live/'),
         ('malware and phising domain', 'https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-aa.txt'),
         ('malware and phising domain', 'https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-aa.txt.txt'),
         ('malware and phising domain', 'https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-ab.txt'),
